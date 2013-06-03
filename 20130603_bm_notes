@@ -1,0 +1,33 @@
+20130603_bm_notes
+
+
+////Workflow////
+Make Changes
+Add
+Commit
+Pull
+--conflict resolutions
+Fixing Code
+
+Push
+
+
+
+////Commands////
+
+git remote add origin https://github.com/tschannes/test2.git
+
+
+git remote -v #show all remote repos
+
+git branch first_branch #create branch
+git checkout -b second_branch #create branch
+
+git checkout first_branch (switch to branch)
+git branch -a #showing all branches
+
+git merge first_branch #always switch to branch that is supposed to be merged into
+
+on long running branches, merge master into long running branch
+
+master is clean, sub branches tend to be work in progress
