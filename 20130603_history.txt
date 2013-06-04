@@ -1,0 +1,500 @@
+   58  cal 6 2013
+   59  irb
+   60  irb
+   61  cal 6 2013
+   62  cal 7 2013
+   63  cal (7..8) 2013
+   64  cal 7+8 2013
+   65  cal 2013
+   66  cal 6, 7 2013
+   67  cal [6, 7] 2013
+   68  ir
+   69  irb
+   70  irb
+   71  irb
+   72  ls
+   73  sub .bashrc
+   74  irb
+   75  pwd
+   76  cd Desktop
+   77  ruby test.rb
+   78  ls 
+   79  ruby test.rb
+   80  ruby test.rb
+   81  ruby test.rb
+   82  ruby test.rb
+   83  irb
+   84  ruby test.rb
+   85  ruby test.rb
+   86  ruby test.rb
+   87  ruby test.rb
+   88  irb
+   89  irb
+   90  irb
+   91  irb
+   92  pwd
+   93  cd Desktop
+   94  ruby test2.rb
+   95  ruby test2.rb
+   96  ruby test2.rb
+   97  ruby test2.rb
+   98  ruby test2.rb
+   99  ruby test2.rb
+  100  ruby test2.rb
+  101  ruby test2.rb
+  102  ruby test2.rb
+  103  pwd
+  104  ruby downloads.rb
+  105  ruby downloads.rb
+  106  ruby downloads.rb
+  107  irb
+  108  irb
+  109  irb
+  110  irb
+  111  ls
+  112  pwd
+  113  ls -al
+  114  man ls
+  115  q
+  116  cd ~
+  117  open .
+  118  cd D
+  119  cd 
+  120  cd D
+  121  cd ~Desktop
+  122  cd ~/Desktop
+  123  pwd
+  124  mkdir hannes
+  125  cd hannes
+  126  ls
+  127  open .
+  128  pwd
+  129  ls -al
+  130  ls
+  131  cd ..
+  132  cd ..
+  133  cd ..
+  134  cd ..
+  135  cd ..
+  136  pwd
+  137  cd Desktop
+  138  cd ~/Desktop
+  139  clear
+  140  history
+  141  ps aux
+  142  history
+  143  ps aux | wc -l
+  144  ps aux |grep sub
+  145  ps aux | grep chrome
+  146  ps aux | grep Chrome
+  147  ps aux | grep Sub
+  148  git
+  149  q$
+  150  q
+  151  pwd
+  152  mkdir example_git
+  153  cd example_git
+  154  git init
+  155  ls -al
+  156  git status
+  157  touch file1.txt
+  158  git status
+  159  git add file1.txt 
+  160  git status
+  161  git commit
+  162  status
+  163  git status
+  164  pwd
+  165  open . sub
+  166  sub file1.txt
+  167  status
+  168  git status
+  169  git add file1.txt
+  170  git commit -m "added a line"
+  171  git remote add origin https://github.com/tschannes/test.git
+  172  git remote -v
+  173  git push
+  174  git push
+  175  get remote -v
+  176  git remote -v
+  177  history
+  178  pwd
+  179  git remote add origin https://github.com/tschannes/test2.git
+  180  git branch -a
+  181  git branch first_branch
+  182  git branch -a
+  183  git checkout first_branch
+  184  git branch -a
+  185  git status
+  186  git checkout master
+  187  git branch -a
+  188  git merge first_branch
+  189  pwd
+  190  cd ..
+  191  pwd
+  192  mkdir bm_notes
+  193  cd bm_notes
+  194  git init
+  195  git status
+  196  git add .
+  197  git commit
+  198  git status
+  199  sub 20130603_bm_notes
+  200  git history
+  201  history
+  202  git remote -v
+  203  pwd
+  204  git remote add origin https://github.com/tschannes/test2.git
+  205  git push
+  206  git push master
+  207  git remote add origin git@github.com:tschannes/notes.git
+  208  git remote
+  209  git remote rm origin
+  210  git remote
+  211  git remote add origin https://github.com/tschannes/notes.git
+  212  git remote
+  213  git push -u origin master
+  214  history
+  215  pwd
+  216  cd Desktop
+  217  pwd
+  218  cd ..
+  219  pwd
+  220  mkdir gittest
+  221  cd gittest
+  222  git init
+  223  touch index.html
+  224  git status
+  225  git add .
+  226  git commit
+  227  git status
+  228  git remote add origin https://github.com/tschannes/gittest.git
+  229  git push -u origin master
+  230  cd ..
+  231  ls
+  232  cd bm_notes
+  233  git status
+  234  git add .
+  235  git status
+  236  git commit
+  237  git push
+  238  git push -u origin master
+  239  history
+  240  pwd
+  241  cd ..
+  242  pwd
+  243  mkdir inception
+  244  mkdir inception/lever_first
+  245  cd inception
+  246  mv lever_first level_first
+  247  ls
+  248  cd level_first
+  249  touch ariadne.txt
+  250  touch arthur.txt
+  251  touch cobb.txt
+  252  touch eames.txt
+  253  touch robert_fischer_jr.txt
+  254  touch saito.txt
+  255  touch yusuf.txt
+  256  ls
+  257  cd ..
+  258  ls
+  259  git init
+  260  git status
+  261  git add .
+  262  git status
+  263  git commit -m "first level added"
+  264  git remote add origin git@github.com:tschannes/inception.git
+  265  git push -u origin master
+  266  git remote add origin https://github.com/tschannes/inception.git
+  267  history
+  268  git remote rm origin
+  269  git remote -v
+  270  git remote add origin https://github.com/tschannes/inception.git
+  271  git push -u origin master
+  272  pwd
+  273  ls
+  274  mkdir level_first/level_second
+  275  cd level_second
+  276  cd level_first
+  277  cd level_second
+  278  touch arthur.txt
+  279  touch cobb.txt
+  280  touch eames.txt
+  281  touch robert_fischer_jr.txt
+  282  touch saito.txt
+  283  touch yusuf.txt
+  284  git add .
+  285  git status
+  286  git commit
+  287  git push
+  288  git config --global user.name "tschannes"
+  289  git config --global user.email "mail@tscherrig.net"
+  290  pwd
+  291  mkdir level_third
+  292  touch cobb.txt
+  293  touch eames.txt
+  294  touch robert_fischer_jr.txt
+  295  touch saito.txt
+  296  touch yusuf.txt
+  297  ls
+  298  git add .
+  299  git status
+  300  cd level_third
+  301  git add .
+  302  git status
+  303  ls
+  304  cd ..
+  305  ls
+  306  cd ..
+  307  ls
+  308  cd level_second
+  309  ls
+  310  cd level_thid
+  311  cd level_third
+  312  ls
+  313  touch cobb.txt
+  314  touch eames.txt
+  315  touch robert_fischer_jr.txt
+  316  touch saito.txt
+  317  touch yusuf.txt
+  318  git add .
+  319  git status
+  320  git commit
+  321  git push
+  322  pwd
+  323  mkdir level_fourth
+  324  ls
+  325  cp cobb.txt /level_forth
+  326  mv eames.txt /level_forth
+  327  mv robert_fischer_jr.txt /level_forth
+  328  mv saito.txt /level_forth
+  329  mv yusuf.txt /level_forth
+  330  cd level_forth
+  331  ls
+  332  cd level forth
+  333  ls
+  334  cd ..
+  335  ls
+  336  pwd
+  337  mv cobb.txt /level_third
+  338  ls
+  339  mv eames.txt /level_third
+  340  mv robert_fischer_jr.txt /level_third
+  341  mv saito.txt /level_third
+  342  mv yusuf.txt /level_third
+  343  ls
+  344  cd level_third
+  345  ls
+  346  cd level_forth
+  347  ls
+  348  cd level_fourth
+  349  ls
+  350  rm level_fourth
+  351  ls
+  352  cd ..
+  353  ls
+  354  rm level_fourth
+  355  pwd
+  356  cd ..
+  357  pwd
+  358  cd ..
+  359  pwd
+  360  ls
+  361  mv robert_fischer_jr.txt /level_second/level_third/level_fourth
+  362  mv robert_fischer_jr.txt /level_second/level_third
+  363  mv robert_fischer_jr.txt /level_second/
+  364  mv yusuf.txt level_second
+  365  mv saito.txt level_second/level_third
+  366  mv eames.txt level_second/level_third/level_fourth
+  367  cd level_second/level_third/level_fourth
+  368  ls
+  369  git status
+  370  git commit
+  371  git status
+  372  git add .
+  373  git status
+  374  git commit -m "and all the poor characters died in the end."
+  375  git push
+  376  pwd
+  377  cd ~
+  378  cd Desktop
+  379  novel
+  380  mkdir novel
+  381  cd Novel
+  382  ls
+  383  ls
+  384  git init
+  385  git clone https://github.com/bitmakerlabs/collaborative_writing.git
+  386  ls
+  387  sub collaborative_writing
+  388  git remote add origin https://github.com/tschannes/collaborative_writing.git
+  389  git status
+  390  git add .
+  391  git status
+  392  git commit
+  393  git push -u origin master
+  394  git pull
+  395  ls
+  396  ls
+  397  sub collaborativ_writing
+  398  ls
+  399  pwd
+  400  sub collaborative_writing
+  401  git status
+  402  git add .
+  403  git status
+  404  git commit
+  405  git status
+  406  ls
+  407  git add collaborative_writing
+  408  git status
+  409  git commit
+  410  git commit -a
+  411  git push
+  412  pwd
+  413  git add .
+  414  git status
+  415  git commit -m "added a sentence"
+  416  pwd
+  417  ls
+  418  sub collaborative_writing
+  419  ls
+  420  cd collaborative_writing
+  421  ls
+  422  git add .
+  423  git status
+  424  git commit -m "added a sentence"
+  425  git push
+  426  git push
+  427  remote -v
+  428  git remote -v
+  429  git rm remote
+  430  git remote rm origin
+  431  git remote -v
+  432  git remote add origin https://github.com/tschannes/collaborative_writing.git
+  433  git push -u origin
+  434  ls
+  435  cd ..
+  436  ls
+  437  cd ..
+  438  cd ..
+  439  ls
+  440  cd Desktop
+  441  mkdir klon
+  442  cd klon
+  443  git clone https://github.com/tigenie/collaborative_writing.git
+  444  git pull
+  445  git pull https://github.com/tigenie/collaborative_writing.git
+  446  cd ..
+  447  ls
+  448  pwd
+  449  mkdir klon2
+  450  git clone https://github.com/tigenie/collaborative_writing.git
+  451  git pull https://github.com/tigenie/collaborative_writing.git
+  452  cd ..
+  453  ls
+  454  cd Desktop
+  455  cd klon
+  456  ls
+  457  cd collaborative_writing
+  458  git pull https://github.com/tigenie/collaborative_writing.git
+  459  ls
+  460  sub novel.txt
+  461  git add .
+  462  git status
+  463  git commit -m "Hannes added a sentence"
+  464  git push origin
+  465  git pull https://github.com/tschannes/collaborative_writing.git
+  466  git pull https://github.com/tschannes/collaborative_writing.git
+  467  git pull
+  468  git commit "new something"
+  469  git status
+  470  git push origin
+  471  git pull
+  472  git status
+  473  git commit
+  474  git pull
+  475  git commit -m "anything"
+  476  git pull
+  477  rm .git/.MERGE_MSG.swp 
+  478  git pull
+  479  rm .git/MERGE_HEAD
+  480  git pull
+  481  sub novel.txt
+  482  git pull
+  483  git remote -v
+  484  git rm remote
+  485  git remote rm
+  486  git remote -v
+  487  git rm remote origin
+  488  git remote rm origin
+  489  git remote -v
+  490  git remote origin https://github.com/tschannes/collaborative_writing.git
+  491  git remote set-url origin https://github.com/tschannes/collaborative_writing.git
+  492  git remote add https://github.com/tschannes/collaborative_writing.git
+  493  git remote add origin https://github.com/tschannes/collaborative_writing.git
+  494  git remote -v
+  495  git push origin master
+  496  git pull https://github.com/tigenie/collaborative_writing.git
+  497  git push origin
+  498  history
+  499  git remote -v
+  500  pwd
+  501  history
+  502  pwd
+  503  cd Desktop
+  504  ls
+  505  cd bm_notes
+  506  ls
+  507  touch 20130603_bm_notes
+  508  git status
+  509  git add .
+  510  git status
+  511  touch 20130604_bm_notes
+  512  git status
+  513  git add .
+  514  git status
+  515  git commit
+  516  git status
+  517  git commit -m "class: ruby"
+  518  git push
+  519  git push
+  520  cd ~/.ssh
+  521  pbcopy < ~/.ssh/id_rsa.pub
+  522  clear
+  523  ssh-keygen -t rsa -C "mail@tscherrig.net"
+  524  pbcopy < ~/.ssh/id_rsa.pub
+  525  pwd
+  526  cd ~/
+  527  pwd
+  528  cd Desktop
+  529  mkdir mew
+  530  cd mew
+  531  git clone https://github.com/tschannes/collaborative_writing.git
+  532  history
+  533  git remote -v
+  534  ls
+  535  cd collaborative_writing
+  536  git remote -v
+  537  git remote rm
+  538  history | grep /remote/
+  539  git remote rm origin
+  540  git remote -v
+  541  git add remote origin https://github.com/tschannes/copy.git
+  542  git remote add https://github.com/tschannes/copy.git
+  543  git remote add origin https://github.com/tschannes/copy.git
+  544  git remote -v
+  545  git status
+  546  git push origin
+  547* git push -u origin master
+  548  history | print
+  549  history > cat
+  550  cat
+  551  history
+  552  cd Desktop
+  553  pwd
+  554  cd ~
+  555  cd Desktop
+  556  touch 20130603_history.txt
+  557  history > 20130603_history.txt
