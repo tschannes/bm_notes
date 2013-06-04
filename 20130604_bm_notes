@@ -1,0 +1,37 @@
+git add --all //// updates all files even deleted ones
+git add . //// updates only new files
+git log ////show commit history
+
+git remote add origin <server>
+git pull <branch name>
+git push
+git clone <server url>
+
+git branch -a ///shows all branches
+git branch <branch_name> 
+git checkout <branch_name
+git merge <branch_name>
+
+
+Collaborative Writing
+
+
+Student A
+git clone <repo>
+git remote rm origin
+git remote add origin <server_url>
+write a line
+git add .
+git commit -m "add first sentences"
+git push -u origin master (after first push, only push)
+add collaborators
+
+Student B
+git clone <repo_url>
+write line in text file
+git add . 
+git commit -m "second sentence"
+git push 
+
+pull takes only branch
+clone takes everything
