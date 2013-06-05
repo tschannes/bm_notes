@@ -1,0 +1,26 @@
+PIG-LATIN NOTES
+
+Use constants whenever a variable is only defined once in the program.
+
+whether you call
+
+PiglatinConverter.convert(word) => class method approach
+
+game = PiglatinConverter.new
+game.convert(word) # => Instance approach
+
+define parts of strings
+
+ddonwonqn5w ) l35534w.join[0..first_vowel_index-1
+after_vowel = letters.join[first_vowel_index..-1]
+
+
+LECTURE DEBUGGING RUBY / Hangman
+
+hide helper variables
+private: even children cannot access private methods
+protected: children (inheritence) can actually access these methods
+
+
+Gem PRY
+
