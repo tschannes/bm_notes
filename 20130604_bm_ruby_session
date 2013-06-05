@@ -1,0 +1,113 @@
+.class #what class is an object
+
+a = gets.chomp
+
+1.upto(50) {|n| puts n}
+
+(1..20).each do |n| puts n end
+
+(1..19).to_a.each do |x| x*x end
+
+i = 0
+until i == 45
+	i += 1
+	puts "#{i}"
+end
+
+for i in 1..20
+	#run block
+end
+
+#loop through each char
+f.each_char {|c| print c, ' ' }
+
+#looping and breaking
+i= 0
+loop do 
+	+=1
+	next if i==3
+		print "#{i} "
+	break if i == 10
+end
+
+loop do 
+	+=1
+	if i!=3
+		print "#{i} "
+	break if i == 10
+end
+#or
+until i==10
+	i+=1
+	print "#{i}" unless o == 3
+end
+#do not use unless in combination with else
+
+
+#METHODS
+def add(x, y)
+	x + y
+	#return nil would make sure the output
+	#does not leak out as a return value
+end
+add(4, 5)
+
+#CLASSES
+
+class Bicycle < Object #implicitly
+	#constructor, define how class turns
+	#into instance
+	def initialize(color='red') #default
+		#making input available for class
+		@color = color
+		@wheels = 2
+	end
+
+#getter
+	def color
+		@color
+	end
+#setter
+	def color=(val)
+		@color = val
+	end
+
+attr_accessor :color #symbol
+
+	def
+#instance method
+	def ride
+		puts "Being ridden"
+	end
+#class method
+	def self.pink_bycicle 
+		Bicycle.new("pink")
+	end
+
+	def to_s
+		"This #{self.class} is #{@color} and has #{@wheels} wheels."
+	end
+
+end
+
+b = Bicycle.new("pink").ride
+b = Bicycle.pink_bycicle 
+
+
+class Tricycle < Bicycle
+
+	def initialize(color='green')
+		super
+		@wheels = 3
+end
+
+c = Tricycle.new
+puts c
+
+b.color
+
+10.times do
+	sleep 1
+	print"."
+end
+puts ""

@@ -13,8 +13,7 @@ git checkout <branch_name
 git merge <branch_name>
 
 
-Collaborative Writing
-
+COLLABORATIVE WRITING
 
 Student A
 git clone <repo>
@@ -37,4 +36,23 @@ pull takes only branch
 clone takes everything
 
 
-LECTURE
+LECTURE ON RUBY
+Data Types
+Variables and Methods
+Input and OUtput (STDIN, STDOUT)
+Flow Control (return statement)
+Classes and Objects (OOP)
+
+Classes are blueprints for objects.
+
+Employing programs to handle STDOUT from
+Console: 
+
+ls -al | ruby example.rb
+
+Why use Classes?
+Mirroring actual objects as virtual objects
+and classes of objects
+
+What are Class Variables good for?
+
