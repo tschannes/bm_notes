@@ -1,0 +1,41 @@
+coffee -- three varieties
+chocolate chip cookies -- two_varieties
+
+inventory (cookies)
+
+identify Actors, Classes
+
+Start with Runner / Human Interface manager
+
+Sale class/ action
+
+Product
+- cookie
+- coffee
+
+Exception
+
+require classes and subclasses
+
+@products.each do |product| product.price
+
+Product.name
+
+
+class OutOfInventoryException < StandardError
+end
+
+class TooMuchInventoryException < StandardError
+end
+
+raise
+
+rescue
+	StandardError::OutOfInventoryException
+
+
+How to do combo
+
+module Combo
+	
+end 
