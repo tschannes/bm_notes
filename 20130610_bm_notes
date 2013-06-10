@@ -1,0 +1,42 @@
+TESTING
+
+Tests are like checklists.
+
+Verification Testing: write tests after the code has been written (developing using manual testing and writing post-hoc test)
+
+Test First: // TDD: n.times do write test then write code
+
+Unit Tests, isolated chunks of code are being tested. Low level testing.
+
+Integration Tests: builds on unit tests testing the resulting combination of units. (takes internals into perspective, dev perspective)
+
+Functional and Acceptance Test: feature testing (avoids internals, user's perspective )
+
+
+Ruby - Testing framework
+Test-unit, built into Ruby
+
+Mini-test, rewrite of Test-unit
+
+Rspec: Behaviour oriented (using natural-esque syntax)
+
+
+A Good Test
+
+Is Isolated: Should not impact other tests. Tests one thing only.
+
+Tests the API, not internals: Test only public methods
+
+Quick to write
+
+Quick to run
+
+Is Unique: keep it DRY
+
+
+
+Arrange: Setup the test, preconditions
+
+Act: Acto on the test object
+
+Assert: Verify whether test does what was intended.

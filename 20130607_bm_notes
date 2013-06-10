@@ -1,0 +1,35 @@
+IO
+Communicating with the Internet
+
+STDOUT / STDIN / STDERR basic properties of IO-Flow
+
+file = File.open("usr/share/dict/words", "r")
+words = file.read.split
+@word = words.sample
+
+location of dictionary on computer
+cat (usr(share/dict/words))
+
+
+IRC Internet Relay Chat = allow people to connect to Channel
+private message, discuss	$
+
+hubbard.freenote.net
+
+So what is an irc-BOT?
+
+server
+port
+nick
+
+TCP-Socket is unique to session (socket where people plugin)
+ports are shared by different people (channel)
+
+Socket and files indicate their end / termination by eof?
+
+NICK
+USER
+JOIN
+PRIVMSG
+--> IRC specific commands
+
