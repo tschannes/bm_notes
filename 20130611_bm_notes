@@ -1,0 +1,58 @@
+TDD: 
+
+Think about the plan
+
+Think abouthow to test it
+
+Not allowd to write ay mor of a test than is sufficient to fail
+
+
+1. write test
+2. see it fail
+3. write code to make test pass
+4. write new test
+
+
+EXAMPLE CRM -- Inventory Managment
+
+
+class Inventory
+
+@@price_index[price]
+
+
+
+def initialize(capacity)
+	@cookies = {
+		:chocolate_chip => 0, 
+		:banana_nut => 0
+	}
+	@capacity = capacity #??????????????????
+	@stock = 0
+end
+
+def add_cookie(flavor, quantity)
+	if current_stock + quantity > capacity
+		return false
+	end
+	@cookies[flavor.to_sym] += quantity
+	@stock += quantity
+	true
+end
+
+def total_value
+	total = 0
+	@cookies.each do  |type, quantity|
+		total += quantity * Cokie.new(type).price
+	end
+	total
+
+	# cc_cookie  = Cookie.new('chocolate_chip')
+	# bn_cookie = Cookie.new('banana_nut')
+	# total = 0
+	# total += @cookies[chocolate_chip] * cc_cookie.price
+	# total += @cookies[banana_chip] * bn_cookie.price
+	# total
+end
+
+end
