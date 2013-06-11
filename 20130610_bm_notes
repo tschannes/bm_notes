@@ -10,7 +10,7 @@ Unit Tests, isolated chunks of code are being tested. Low level testing.
 
 Integration Tests: builds on unit tests testing the resulting combination of units. (takes internals into perspective, dev perspective)
 
-Functional and Acceptance Test: feature testing (avoids internals, user's perspective )
+Functional and Acceptance Test: feature testing (avoids internals, user's perspective )'
 
 
 Ruby - Testing framework
@@ -40,3 +40,28 @@ Arrange: Setup the test, preconditions
 Act: Acto on the test object
 
 Assert: Verify whether test does what was intended.
+
+
+
+Active_merchant shopify: library to access payment gateway APIs
+
+
+
+Usually you have several tests for single methods
+
+
+workflow: work on separate branch, pull from master, merge back into master.
+
+
+always start methods with "test_initialize_...."
+
+If a test_case contains several checks, one of which fails, the entire test_case fails.
+
+require 'test/unit'
+require 'active_support'
+
+DRY_up code
+
+How do you know how well a project has been tested?  USe simplecov gem
+
+
