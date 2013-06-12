@@ -1,0 +1,27 @@
+#special-heading h1 {  /*all children selected, no precedence*/
+	color: 
+}
+
+#special-heading > h1 {  /*direct child selected only, precedence*/
+	color: 
+}
+
+button:hover{
+	background-color: yellow;
+}
+button:active{
+	color:purple;
+}
+.container {
+	height:400px;
+	width: 400px;
+	background: grey;
+}
+.bod {
+	height:40px;
+	width:40px;
+	background:green;
+	display:inline-block;
+	/*float:left;*/
+	border:1px solid orange;
+}

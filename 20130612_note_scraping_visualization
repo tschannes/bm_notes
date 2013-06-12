@@ -1,0 +1,28 @@
+Lecture on data scraping and data visualization
+
+HTML Markup Language and XML both subsets of SGML
+NOT a programming language
+
+HTML constructs a document
+
+Inspector: 
+
+user agent = browser stylesheet
+
+how to do automated testing on html and css
+www validator
+selenium ?? for integration testing
+http://docs.seleniumhq.org/projects/webdriver/
+
+not really automated testing.
+
+
+CSS and precedence
+
+
+
+Absolute and Relative Positioning
+If you need to absolutely position an element you also need to specify a point of reference, 
+using absolute or relative positioning on a parent element.
+
+CSS reset trying to make all browsers equal. Build a baseline for subsequent styling. 
