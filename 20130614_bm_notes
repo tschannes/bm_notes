@@ -1,0 +1,40 @@
+Restful API
+
+HTTP
+Querystrings
+JSON API
+Ruby ARGV(accept arguments into .rb)
+
+HyperTextTransfer Protocol
+set of rules
+
+methods of HTTP
+get
+post
+put
+delete
+head
+
+everything in ASP is a HTTP method
+
+200: Success
+300: Redirection
+400: Client Error
+500: Server Error
+
+
+Querystrings
+search?q=searchterm%20(space)
+
+browser uses url encoding library
+URI.encode('')
+
+Javascript Object Notation
+- A javascript hash
+- EG {if:, name: "ITem 1"}
+
+API
+accessing api through http
+
+JSONVIEW Extension for Chrome
+
