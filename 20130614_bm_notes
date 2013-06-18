@@ -38,3 +38,5 @@ accessing api through http
 
 JSONVIEW Extension for Chrome
 
+
+router matches urls and actions

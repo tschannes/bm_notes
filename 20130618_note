@@ -1,0 +1,60 @@
+<!-- JQuery, Why?
+
+Solves cross browser compatibilieties issues.
+
+document
+window
+navigator
+
+google distributed libraries:
+https://developers.google.com/speed/libraries/
+
+add "http" or "https" in front of snippet.
+
+where to place script tag: can be placed in head. For better performance place at bottom.
+
+when it comes to choosing between css animation and jquery, it is really a question of performance.
+
+ -->
+
+<!doctype html>
+<html lang="en">
+<head>
+	<script src="http//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- obtrusive, deprecated js -->
+	<h1 onclick="alert('hello');">
+		Header
+	</h1>
+
+	<p id="content">
+		Content lkjsdf lakjdsf <span class="special">span element</span>
+	</p>
+	<!-- modern, unobtrusive js -->
+	<script>
+		// wrapper corresponds to window.ready, $ = jQuery
+		$(function(){
+			// alert('page has finished loading.');
+			$('h1').click(function(){
+				alert('hello');
+			});
+			$($('h1')[0]).click(); //triggers a click event automatically
+			// or
+			$('h1:first').click();
+			// select only one element of the selected set; this is specific to function, refers to the node where the function is attached
+				$(this).text('Clicked');
+			$('#content').text($(this).text() + ' was clicked');
+			$(#content).find('span.special').click(function(){
+				$(this).text('SPECIAL!');
+			});
+		});
+
+		// jQuery(document).ready(function(){
+
+		// });
+	</script>
+</body>
+</html>
