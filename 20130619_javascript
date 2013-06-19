@@ -1,0 +1,33 @@
+ejohn.org/apps/learn
+
+prototype sam stevenson (rails) = precursor to jquery
+
+bind. global function allows all events to be linked to functions/objects.
+
+#3 pass fail control statements
+
+window.isDeadly variable defined on Window object (top most level)
+
+Order of code does not matter. But variables are supposed to be defined before they are used.
+
+"undefined"
+
+CONDITION ? true case : do
+
+setting value to "null" equal deleting value
+
+once the function is created (and named) it cannot be deleted by deleting its constructor.
+
+anonymous functions live and die with the variables they are assigned to. named functions live past the lifes of variables that might contain them.
+
+Every javascript function contains arguments, an array-like objects. arguments.callee prints the function itself.
+
+Naming functions makes them super-local in scope.
+
+functions and objects are very similar
+you can pass properties to functions too.
+
+this in functions refers to the next containing object (it does never refer to it (the function) itself.
+
+scope can be manipulated using "call(differentObject)", and "apply(differentObject)"
+
