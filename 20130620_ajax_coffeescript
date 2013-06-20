@@ -1,0 +1,46 @@
+AJAX : loading data into site while site is up.
+Request is made after site has been up.
+
+Disadvantage: No direct url to content. SEO becomes problematic. No Backbutton, no browser history.
+
+XMLHTTPRequest go wiki XHR  = AJAX
+
+jQuery.ajax()
+
+type: get = standard
+contentType
+cross
+Data
+Datatype
+
+What is JSONP?
+normal ajax requests to other domains are not permitted.
+generally works with relative path
+JSONP does avoid making an actual AJAX-call behind the scenes.
+Set data-type to JSONP
+
+JSONP inserts a javascript src tag into calling page. this tag gets data and appends it to a function which is then called in jquery.ajax().success()
+
+jQuery.get() and jQuery.post() instead of using jQuery.ajax()
+
+
+COFFEE-SCRIPT
+
+harvestthq.github.io/chosen
+
+@ = "this."
+even in Coffeescript you can or cannot use braces to introduce arguments in functions and for function-calls
+
+string interpolation is possible in coffeescript
+
+
+coffee folder
+coffee -w -0 js/ js -c coffee/
+
+-w means watching, every change is compiled directly.
+
+js is placed within a wrapper function: to make a function orvrariable globally available do
+window.add = add
+
+
+assumedly this is the same for sass
