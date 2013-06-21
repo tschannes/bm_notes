@@ -1,0 +1,41 @@
+flickr API
+
+http://www.flickr.com/services/api/
+
+url = "http://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=?"
+# format=json set format to json
+# &callback=? let jquery fill in name of callback function
+
+$.getJSON url, (data, status, xhr) ->
+	# console.log data, status, xhr
+	output = ""
+	$.each data.items, (i, item) ->
+		# console.log item
+		output += "<li><img src='' /> + item.media.m + </li>"
+	$('#images').append(output)
+
+
+
+
+s = """
+	<li>
+	<img src= "#{photo.media.m}" />
+	...
+	# """ terminates the string
+
+	s = $(s).hide()
+	# turn string into jquery-object and pass it to jquery function
+
+	webkit-transform:scale(1.5) rotate(20);
+	webkit-transition: 0.2s all ease-in-out;
+
+	transition not to be applied to hover but to the static class. hover only triggery the changes.
+
+	setTimeout () -> 
+		s.addClass('show')
+	,	100 * i
+	# ugly way of adding second parameter in javascript
+
+	s = $(s).hide()
+
+
