@@ -39,3 +39,14 @@ s = """
 	s = $(s).hide()
 
 
+# Mina going over HTTP, jsonp and other stuff
+
+how do cookies work 	
+
+# JSONP is being replaced with cores
+# jsonp only works with get
+
+# what ar closures???
+
+# function definition plus its variables read mdn on closures
+# closure is like factories producing functions (instead of methods I presume)
