@@ -1,0 +1,51 @@
+# rails and sinatra achieve the same thing: build web apps.
+# sinatra to build small things
+# better speed, because small
+# extensible with gems, customizable
+
+# eg chat server
+# eg analytics server
+# eg url shortener
+# eg simple JSON/XML API
+
+require 'sinatra'
+require 'carmen'
+# Thin is  handling web server stuff, like Apache
+# localhost:80 = default web server
+# sinatra is at localhost:4567
+# IP-Adress:4567 finds apps on same network
+get '/' do
+	# 'Hello World'
+	erb :index
+	# looking for views/index.erb
+end
+
+#DSL blocks must return strings that might contain HTML
+# This requires a route with a compulsory parameter :name
+get '/hello/:name' do
+	# "Hello from #{params[:name, :last_name]}"
+	@name = params[:name]
+	# calls action at views/index.erb and displays it to the user
+	erb :hello
+end
+# Heroku can be deployed via Heroku, Heroku does not distinguish between Rails and Sinatra. Sinatra being way faster
+# check gem Carmen 
+
+get '/countries' do
+	@countries = Carmen::Country.all?
+	# makes data available to erb file
+	erb :index
+end
+
+get '/countries/:code' do
+	@country = Carmen::Country.coded(params[:code])
+	erb :show
+end
+# links are relative to root of the application so as to make apps work in different environments (localhost versus deployed)
+# mkdir public/style.css public folder contains all the static materials for the app
+# public folder is checked first, only then the application itself (with views) is hit
+# use shotgun app.rb to automatically restart server when code changes
+h@t
+H@T
+
+
