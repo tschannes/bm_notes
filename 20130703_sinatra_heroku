@@ -1,0 +1,38 @@
+Managing gem dependencies
+Rack
+Heroku
+deployment
+
+Dependencies?
+Bundler jQuery co-founder Rails co-dev check name
+
+bundler avoids conflicts
+allows app-level gem dependenciy management
+
+gem install bundler
+
+Gemfile lists all gems (exclusively for Bundler)
+bundle (run from project root)
+Gemfile.lock is a system file used by Bundler, tells Bundler dependencies and versions. Not to be edited.
+bundle show command used to figure out the gem versions
+
+Rack:
+provides interface for dev
+Unifies API for web server web frameworks
+Sits between web server (Thin, Unicorn...) and web framework (Sinatra, Rails...)
+allows chaining apps: one request, dealt with in three apps. Kind of like chaining Unix-Commands
+
+Using Rack:
+create config.ru
+rackup command starts app
+
+Heroku
+Deployment, Heroku requires you to use bundler
+amazon cloudhosting
+
+user data should not be stored on server
+web practice: user files are stored apart form app(on a different web server)
+
+how to updata heroku apps
+
+heroku releases
