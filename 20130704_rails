@@ -1,0 +1,23 @@
+Business Logic (domain logic) separate from UI
+
+Architectural pattern that helps keeping thigns organized. MVC
+
+M = Model, data and business logic
+V = View, format and layout
+C = Controller, handle requests from user, glue between model and view
+
+Routing: points to the right controller and action (one per request)
+
+Sprockets: allows the compilation of coffeescript and scss, sass
+
+
+THREE IMPORTANT FILES
+
+routes: file tells you what the user can do with any given application. It is like a summary of the app.
+
+Gemfile: tells you what libraries are being used.
+
+Schema: tells you what the db looks like, what sets exist.
+
+text: unlimited
+string: limited to 256 signs
